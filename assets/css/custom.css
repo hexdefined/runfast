@@ -4,11 +4,11 @@
 }
 
 :is(html[class~="dark"] .dark\:to-gray-400) {
-  --tw-gradient-to: #EE2B2C var(--tw-gradient-to-position);
+  --hx-gradient-to: #EE2B2C var(--hx-gradient-to-position);
 }
 
 :is(html[class~="dark"] .dark\:from-gray-100) {
-  --tw-gradient-from: #F16B46 var(--tw-gradient-from-position);
-  --tw-gradient-to:  rgba(238, 43, 44, 1); var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --hx-gradient-from: #F16B46 var(--hx-gradient-from-position);
+  --hx-gradient-to:  rgba(238, 43, 44, 1); var(--hx-gradient-to-position);
+  --hx-gradient-stops: var(--hx-gradient-from), var(--hx-gradient-to);
 }
